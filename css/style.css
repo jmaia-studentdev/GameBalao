@@ -1,0 +1,41 @@
+
+#cenario {
+    background:url('../imagens/cenario.png');
+    background-position: bottom;
+    height: 500px;
+    width: 600px;
+    float: left;
+    
+}
+
+#container {
+    float: left;
+    width: auto;
+    height: 500px;
+    border: 1px #000 solid;
+    margin-right: 5px;
+}
+
+.squares{
+    margin-bottom: 15px;
+}
+
+#t_time {
+    width: 145px;
+    height: 136px;
+}
+
+#t_time td {
+    background: url('../imagens/cronometro.png') no-repeat;
+    text-align: center;
+}
+
+#cont_segundos {
+    color: red;
+    font-size: 30px;
+    
+}
+
+#baloesInteiros, #baloesEstourados {
+    font-size: 40px;
+}
